@@ -13,6 +13,8 @@ use 100-apps-to-install.sh in the Install Scripts Folder
 
 use 110-install-remmina.sh in the Install Scripts Folder
 
+use 120-install-timeshift.sh in the Install Scripts Folder
+
 ## Other Apps
 Synology Note Station
 https://www.synology.com/en-us/support/download/DS918+#utilities

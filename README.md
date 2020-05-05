@@ -1,2 +1,79 @@
-# POPOS
-POP!_OS Setup
+# POP!_OS Setup
+
+
+#### Adjust Time with Windows Dual Boot
+````
+## Open Terminal
+timedatectl set-local-rtc 0
+````
+
+#### Apps to Install
+````
+use 100-apps-to-install.sh in the Install Scripts Folder
+
+use 110-install-remmina.sh in the Install Scripts Folder
+
+## Other Apps
+Synology Note Station
+https://www.synology.com/en-us/support/download/DS918+#utilities
+
+Android Messages
+https://github.com/chrisknepper/android-messages-desktop/releases
+
+````
+
+#### Setup Oh My ZSH
+````
+sudo apt install zsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+## Install Pi Theme
+wget -O $ZSH_CUSTOM/themes/pi.zsh-theme https://raw.githubusercontent.com/tobyjamesthomas/pi/master/pi.zsh-theme
+
+nano ~/.zshrc
+ZSH_THEME="pi"
+source ~/.zshrc
+
+## Install Auto Suggestions Plugin
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+## Install Syntax Highlighting Plugin
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+
+nano ~/.zshrc
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+source ~/.zshrc
+````
+
+#### Install VMWare Workstation Pro
+````
+https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
+
+sudo bash ./VMWare Install File
+````
+
+#### Install Virtualbox
+````
+## Download Virtualbox
+https://www.virtualbox.org/wiki/Linux_Downloads
+
+## Download Extension Pack 
+https://www.virtualbox.org/wiki/Downloads
+````
+
+#### Gnome Extensions
+````
+Clipboard Indicator
+Audio Out Switcher
+Dynamic Panel Transparency
+Emoji Selector
+Kstatusnotifieritem/appindicator support
+Multi Monitors add-on
+Openweather
+Unblank Screen Saver
+User Themes
+Bing Wallpaper Changer
+Overview All Windows
+Windows Overlay Icons
+````

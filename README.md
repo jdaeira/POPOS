@@ -24,6 +24,13 @@ https://github.com/chrisknepper/android-messages-desktop/releases
 
 ````
 
+#### Other Things to Do
+````
+Move Fonts into Font Manager
+Change Nomacs to Dark Mode
+Setup Thumb Nailer
+````
+
 #### Setup Oh My ZSH
 ````
 sudo apt install zsh

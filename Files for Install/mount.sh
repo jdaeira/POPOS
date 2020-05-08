@@ -14,7 +14,7 @@ sleep 1
 sudo mount 192.168.1.125:/volume1/CloudStation /mnt/cloud
 echo "Mounting Cloudstation Folder..."
 sleep 1
-sudo mount 192.168.1.125:/volume1/"Cloud Syncing" /mnt/cloudsync
+sudo mount 192.168.1.125:/volume1/"Cloud Syncing" /mnt/sync
 echo "Mounting Cloud Syncing Folder..."
 sleep 1
 

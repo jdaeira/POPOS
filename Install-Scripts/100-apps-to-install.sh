@@ -34,7 +34,7 @@ sudo apt install google-chrome-stable -y
 sudo apt install spotify-client -y
 
 ## Install Snap Support
-sudo apt install snapd
+sudo apt install snapd -y	
 
 ## For Opening JNLP Files for Screen Connect
 sudo apt install icedtea-netx -y

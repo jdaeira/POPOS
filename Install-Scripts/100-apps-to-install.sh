@@ -48,5 +48,11 @@ sudo apt install nomacs -y
 ## Install Microsoft Fonts
 sudo apt install ttf-mscorefonts-installer -y
 
+## Install Gnome Clocks
+sudo apt install gnome-clocks -y
+
+## Install the Breeze Style for Libre Office
+sudo apt install libreoffice-style-breeze -y
+
 echo "############ Common Apps Installed #############"
 

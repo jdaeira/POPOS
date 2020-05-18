@@ -74,13 +74,13 @@ https://www.virtualbox.org/wiki/Downloads
 #### Gnome Extensions
 ````
 Clipboard Indicator
-Audio Out Switcher
+Audio Switcher by Gwynbleid94
 Dynamic Panel Transparency
 Emoji Selector
 Kstatusnotifieritem/appindicator support
 Multi Monitors add-on
 Openweather
-Unblank Screen Saver
+Unblank lock Saver
 User Themes
 Bing Wallpaper Changer
 Overview All Windows

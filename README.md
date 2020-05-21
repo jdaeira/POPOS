@@ -75,7 +75,7 @@ https://www.virtualbox.org/wiki/Downloads
 ````
 Clipboard Indicator
 Audio Switcher by Gwynbleid94
-Dynamic Panel Transparency
+Transparent Top Panel
 Emoji Selector
 Kstatusnotifieritem/appindicator support
 Multi Monitors add-on
